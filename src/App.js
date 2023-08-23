@@ -43,7 +43,7 @@ const showAlert=(message,type)=>{
    <div className="container my-3">
     <Routes>
     <Route exact path="/about" element={ <About />} />
-    <Route exact path="/" element={ <TextForm showAlert={showAlert} heading="Try TextUtils"/>} />
+    <Route exact path="/textUtils" element={ <TextForm showAlert={showAlert} heading="Try TextUtils"/>} />
     </Routes>
    </div>
     </Router>
